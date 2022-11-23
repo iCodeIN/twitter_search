@@ -18,8 +18,7 @@ function get_reactfiber(element) {
  return element[key]
 }
 const react_element = $('form[aria-label="Search Twitter"]').parentElement.parentElement.parentElement
-for (react_element.querySelectorAll('[role="option"]')[14]
-const search_label = react_element.querySelector('label') //$('[data-testid="SearchBox_Search_Input_label"]')
+const search_label = react_element.querySelector('label') 
 search_label.querySelector('input').oninput = function (event) {
   var element = event.target
   event.preventDefault()
