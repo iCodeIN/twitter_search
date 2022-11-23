@@ -1,5 +1,6 @@
 # twitter_search
 Work in progress...
+Copy & paste this on the console. Then enter `from:` in the search box.
 ```js
 var key_word = 'from:'
 var new_element_based_on_suggestion_box = `
